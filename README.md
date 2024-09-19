@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # aws_iam_user_create
 Laravel 11 - AWS IAM request
 =======
@@ -68,4 +67,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
->>>>>>> 359014b (initial)
