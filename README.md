@@ -1,4 +1,19 @@
 # aws_iam_user_create
+```bash
+docker compose up -d --build
+```
+```bash
+docker ps
+```
+```bash
+docker exec -it <php container name> bash
+```
+```bash
+composer install
+```
+```bash
+php artisan migrate
+```
 Laravel 11 - AWS IAM request
 =======
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
