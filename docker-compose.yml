@@ -15,7 +15,7 @@ services:
       - ./:/var/www
     networks:
       - network-name
-        #    command: sh -c "sleep 60 && php artisan migrate"
+    command: bash -c "composer install && npm run build && sleep 30 && php artisan migrate && php-fpm"
   db:
     image: mysql:8.0
     container_name: laravel-docker
